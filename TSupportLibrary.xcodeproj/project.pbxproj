@@ -109,6 +109,7 @@
 		4D1269B1229876280098F4B2 /* UIColor+Equivalence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Equivalence.swift"; sourceTree = "<group>"; };
 		4D1269B2229876280098F4B2 /* UIButton+Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Block.swift"; sourceTree = "<group>"; };
 		4D1269B3229876280098F4B2 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		4D1269B722987C110098F4B2 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +134,7 @@
 		4D12692422986DAB0098F4B2 = {
 			isa = PBXGroup;
 			children = (
+				4D1269B722987C110098F4B2 /* .travis.yml */,
 				4D12693022986DAB0098F4B2 /* TSupportLibrary */,
 				4D12693B22986DAB0098F4B2 /* TSupportLibraryTests */,
 				4D12692F22986DAB0098F4B2 /* Products */,

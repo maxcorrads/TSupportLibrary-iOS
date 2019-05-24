@@ -1,0 +1,5 @@
+language: swift
+osx_image: xcode10.2
+xcode_project: TSupportLibrary.xcodeproj
+xcode_scheme: TSupportLibraryTests
+xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone X
