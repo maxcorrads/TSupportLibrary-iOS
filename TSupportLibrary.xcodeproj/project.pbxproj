@@ -10,6 +10,46 @@
 		4D12693822986DAB0098F4B2 /* TSupportLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D12692E22986DAB0098F4B2 /* TSupportLibrary.framework */; };
 		4D12693D22986DAB0098F4B2 /* TSupportLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12693C22986DAB0098F4B2 /* TSupportLibraryTests.swift */; };
 		4D12693F22986DAB0098F4B2 /* TSupportLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D12693122986DAB0098F4B2 /* TSupportLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D12694A22986E450098F4B2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12694822986E440098F4B2 /* BaseViewController.swift */; };
+		4D12694B22986E450098F4B2 /* AbstractTableElementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12694922986E450098F4B2 /* AbstractTableElementViewController.swift */; };
+		4D12694E22986EBE0098F4B2 /* HomeAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12694D22986EBD0098F4B2 /* HomeAdapter.swift */; };
+		4D12695622986ED80098F4B2 /* TableElementWithValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12695122986ED80098F4B2 /* TableElementWithValue.swift */; };
+		4D12695722986ED80098F4B2 /* TableKeyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12695222986ED80098F4B2 /* TableKeyValue.swift */; };
+		4D12695822986ED80098F4B2 /* TableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12695322986ED80098F4B2 /* TableValue.swift */; };
+		4D12695922986ED80098F4B2 /* TableGenericElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12695422986ED80098F4B2 /* TableGenericElement.swift */; };
+		4D12695A22986ED80098F4B2 /* TableCellBasicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12695522986ED80098F4B2 /* TableCellBasicData.swift */; };
+		4D12695C22986F4A0098F4B2 /* TableViewRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12695B22986F4A0098F4B2 /* TableViewRowType.swift */; };
+		4D12696822986F7C0098F4B2 /* KeyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12695E22986F7B0098F4B2 /* KeyTextField.swift */; };
+		4D12696922986F7C0098F4B2 /* UIColor+Solid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12695F22986F7B0098F4B2 /* UIColor+Solid.swift */; };
+		4D12696A22986F7C0098F4B2 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12696022986F7B0098F4B2 /* UITableViewExtension.swift */; };
+		4D12696B22986F7C0098F4B2 /* RoundCornersExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12696122986F7B0098F4B2 /* RoundCornersExtension.swift */; };
+		4D12696C22986F7C0098F4B2 /* Unique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12696222986F7B0098F4B2 /* Unique.swift */; };
+		4D12696D22986F7C0098F4B2 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12696322986F7B0098F4B2 /* PaddingTextField.swift */; };
+		4D12696E22986F7C0098F4B2 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12696422986F7B0098F4B2 /* PaddingLabel.swift */; };
+		4D12696F22986F7C0098F4B2 /* CALayer+SketchShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12696522986F7B0098F4B2 /* CALayer+SketchShadow.swift */; };
+		4D12697022986F7C0098F4B2 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12696622986F7B0098F4B2 /* StringExtension.swift */; };
+		4D12697122986F7C0098F4B2 /* Eq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12696722986F7B0098F4B2 /* Eq.swift */; };
+		4D12697822986FE90098F4B2 /* AppGCollectionTappableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12697422986FE90098F4B2 /* AppGCollectionTappableCell.swift */; };
+		4D12697922986FE90098F4B2 /* AppGCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12697522986FE90098F4B2 /* AppGCell.swift */; };
+		4D12697A22986FE90098F4B2 /* AppGCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12697622986FE90098F4B2 /* AppGCollectionCell.swift */; };
+		4D12697B22986FE90098F4B2 /* AppGTappableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12697722986FE90098F4B2 /* AppGTappableCell.swift */; };
+		4D126982229871090098F4B2 /* TappableViewSelectableContainerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12697E229871090098F4B2 /* TappableViewSelectableContainerComponent.swift */; };
+		4D126983229871090098F4B2 /* TappableViewContainerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12697F229871090098F4B2 /* TappableViewContainerComponent.swift */; };
+		4D126984229871090098F4B2 /* TappableLabelComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D126980229871090098F4B2 /* TappableLabelComponent.swift */; };
+		4D126985229871090098F4B2 /* TappableViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D126981229871090098F4B2 /* TappableViewComponent.swift */; };
+		4D1269882298717F0098F4B2 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1269872298717F0098F4B2 /* UIImageExtension.swift */; };
+		4D126992229871E00098F4B2 /* UIImageExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12698E229871E00098F4B2 /* UIImageExtensionTest.swift */; };
+		4D126993229871E00098F4B2 /* EqTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D12698F229871E00098F4B2 /* EqTest.swift */; };
+		4D12699F229872260098F4B2 /* TappableViewContainerComponentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D126997229872260098F4B2 /* TappableViewContainerComponentTest.swift */; };
+		4D1269A0229872260098F4B2 /* TappableViewSelectableContainerComponentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D126998229872260098F4B2 /* TappableViewSelectableContainerComponentTest.swift */; };
+		4D1269A1229872260098F4B2 /* TappableViewComponentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D126999229872260098F4B2 /* TappableViewComponentTest.swift */; };
+		4D1269AD229872610098F4B2 /* TableValueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1269A9229872610098F4B2 /* TableValueTest.swift */; };
+		4D1269AE229872610098F4B2 /* TableKeyValueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1269AA229872610098F4B2 /* TableKeyValueTest.swift */; };
+		4D1269AF229872610098F4B2 /* TableGenericElementTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1269AB229872610098F4B2 /* TableGenericElementTest.swift */; };
+		4D1269B0229872610098F4B2 /* TableElementWithValueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1269AC229872610098F4B2 /* TableElementWithValueTest.swift */; };
+		4D1269B4229876280098F4B2 /* UIColor+Equivalence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1269B1229876280098F4B2 /* UIColor+Equivalence.swift */; };
+		4D1269B5229876280098F4B2 /* UIButton+Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1269B2229876280098F4B2 /* UIButton+Block.swift */; };
+		4D1269B6229876280098F4B2 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1269B3229876280098F4B2 /* ArrayExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +69,46 @@
 		4D12693722986DAB0098F4B2 /* TSupportLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSupportLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D12693C22986DAB0098F4B2 /* TSupportLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSupportLibraryTests.swift; sourceTree = "<group>"; };
 		4D12693E22986DAB0098F4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D12694822986E440098F4B2 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4D12694922986E450098F4B2 /* AbstractTableElementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractTableElementViewController.swift; sourceTree = "<group>"; };
+		4D12694D22986EBD0098F4B2 /* HomeAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAdapter.swift; sourceTree = "<group>"; };
+		4D12695122986ED80098F4B2 /* TableElementWithValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableElementWithValue.swift; sourceTree = "<group>"; };
+		4D12695222986ED80098F4B2 /* TableKeyValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableKeyValue.swift; sourceTree = "<group>"; };
+		4D12695322986ED80098F4B2 /* TableValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableValue.swift; sourceTree = "<group>"; };
+		4D12695422986ED80098F4B2 /* TableGenericElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableGenericElement.swift; sourceTree = "<group>"; };
+		4D12695522986ED80098F4B2 /* TableCellBasicData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCellBasicData.swift; sourceTree = "<group>"; };
+		4D12695B22986F4A0098F4B2 /* TableViewRowType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewRowType.swift; sourceTree = "<group>"; };
+		4D12695E22986F7B0098F4B2 /* KeyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyTextField.swift; sourceTree = "<group>"; };
+		4D12695F22986F7B0098F4B2 /* UIColor+Solid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Solid.swift"; sourceTree = "<group>"; };
+		4D12696022986F7B0098F4B2 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		4D12696122986F7B0098F4B2 /* RoundCornersExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCornersExtension.swift; sourceTree = "<group>"; };
+		4D12696222986F7B0098F4B2 /* Unique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unique.swift; sourceTree = "<group>"; };
+		4D12696322986F7B0098F4B2 /* PaddingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
+		4D12696422986F7B0098F4B2 /* PaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		4D12696522986F7B0098F4B2 /* CALayer+SketchShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+SketchShadow.swift"; sourceTree = "<group>"; };
+		4D12696622986F7B0098F4B2 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		4D12696722986F7B0098F4B2 /* Eq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eq.swift; sourceTree = "<group>"; };
+		4D12697422986FE90098F4B2 /* AppGCollectionTappableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppGCollectionTappableCell.swift; sourceTree = "<group>"; };
+		4D12697522986FE90098F4B2 /* AppGCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppGCell.swift; sourceTree = "<group>"; };
+		4D12697622986FE90098F4B2 /* AppGCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppGCollectionCell.swift; sourceTree = "<group>"; };
+		4D12697722986FE90098F4B2 /* AppGTappableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppGTappableCell.swift; sourceTree = "<group>"; };
+		4D12697E229871090098F4B2 /* TappableViewSelectableContainerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappableViewSelectableContainerComponent.swift; sourceTree = "<group>"; };
+		4D12697F229871090098F4B2 /* TappableViewContainerComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappableViewContainerComponent.swift; sourceTree = "<group>"; };
+		4D126980229871090098F4B2 /* TappableLabelComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappableLabelComponent.swift; sourceTree = "<group>"; };
+		4D126981229871090098F4B2 /* TappableViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappableViewComponent.swift; sourceTree = "<group>"; };
+		4D1269872298717F0098F4B2 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		4D12698E229871E00098F4B2 /* UIImageExtensionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensionTest.swift; sourceTree = "<group>"; };
+		4D12698F229871E00098F4B2 /* EqTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EqTest.swift; sourceTree = "<group>"; };
+		4D126997229872260098F4B2 /* TappableViewContainerComponentTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappableViewContainerComponentTest.swift; sourceTree = "<group>"; };
+		4D126998229872260098F4B2 /* TappableViewSelectableContainerComponentTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappableViewSelectableContainerComponentTest.swift; sourceTree = "<group>"; };
+		4D126999229872260098F4B2 /* TappableViewComponentTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappableViewComponentTest.swift; sourceTree = "<group>"; };
+		4D1269A9229872610098F4B2 /* TableValueTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableValueTest.swift; sourceTree = "<group>"; };
+		4D1269AA229872610098F4B2 /* TableKeyValueTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableKeyValueTest.swift; sourceTree = "<group>"; };
+		4D1269AB229872610098F4B2 /* TableGenericElementTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableGenericElementTest.swift; sourceTree = "<group>"; };
+		4D1269AC229872610098F4B2 /* TableElementWithValueTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableElementWithValueTest.swift; sourceTree = "<group>"; };
+		4D1269B1229876280098F4B2 /* UIColor+Equivalence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Equivalence.swift"; sourceTree = "<group>"; };
+		4D1269B2229876280098F4B2 /* UIButton+Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Block.swift"; sourceTree = "<group>"; };
+		4D1269B3229876280098F4B2 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +151,11 @@
 		4D12693022986DAB0098F4B2 /* TSupportLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				4D12697C229871020098F4B2 /* Components */,
+				4D12695D22986F7B0098F4B2 /* Utility */,
+				4D12694C22986EB00098F4B2 /* Adapter */,
+				4D12694922986E450098F4B2 /* AbstractTableElementViewController.swift */,
+				4D12694822986E440098F4B2 /* BaseViewController.swift */,
 				4D12693122986DAB0098F4B2 /* TSupportLibrary.h */,
 				4D12693222986DAB0098F4B2 /* Info.plist */,
 			);
@@ -80,10 +165,173 @@
 		4D12693B22986DAB0098F4B2 /* TSupportLibraryTests */ = {
 			isa = PBXGroup;
 			children = (
+				4D1269A6229872580098F4B2 /* Adapter */,
+				4D126994229872260098F4B2 /* Components */,
+				4D126989229871E00098F4B2 /* Utility */,
 				4D12693C22986DAB0098F4B2 /* TSupportLibraryTests.swift */,
 				4D12693E22986DAB0098F4B2 /* Info.plist */,
 			);
 			path = TSupportLibraryTests;
+			sourceTree = "<group>";
+		};
+		4D12694C22986EB00098F4B2 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				4D12697222986FE20098F4B2 /* Holder */,
+				4D12694F22986ECB0098F4B2 /* Model */,
+				4D12694D22986EBD0098F4B2 /* HomeAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		4D12694F22986ECB0098F4B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D12695022986ED80098F4B2 /* Generic */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D12695022986ED80098F4B2 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				4D12695122986ED80098F4B2 /* TableElementWithValue.swift */,
+				4D12695222986ED80098F4B2 /* TableKeyValue.swift */,
+				4D12695322986ED80098F4B2 /* TableValue.swift */,
+				4D12695422986ED80098F4B2 /* TableGenericElement.swift */,
+				4D12695522986ED80098F4B2 /* TableCellBasicData.swift */,
+				4D12695B22986F4A0098F4B2 /* TableViewRowType.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		4D12695D22986F7B0098F4B2 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4D1269B3229876280098F4B2 /* ArrayExtension.swift */,
+				4D1269B2229876280098F4B2 /* UIButton+Block.swift */,
+				4D1269B1229876280098F4B2 /* UIColor+Equivalence.swift */,
+				4D126986229871780098F4B2 /* Image */,
+				4D12695E22986F7B0098F4B2 /* KeyTextField.swift */,
+				4D12695F22986F7B0098F4B2 /* UIColor+Solid.swift */,
+				4D12696022986F7B0098F4B2 /* UITableViewExtension.swift */,
+				4D12696122986F7B0098F4B2 /* RoundCornersExtension.swift */,
+				4D12696222986F7B0098F4B2 /* Unique.swift */,
+				4D12696322986F7B0098F4B2 /* PaddingTextField.swift */,
+				4D12696422986F7B0098F4B2 /* PaddingLabel.swift */,
+				4D12696522986F7B0098F4B2 /* CALayer+SketchShadow.swift */,
+				4D12696622986F7B0098F4B2 /* StringExtension.swift */,
+				4D12696722986F7B0098F4B2 /* Eq.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		4D12697222986FE20098F4B2 /* Holder */ = {
+			isa = PBXGroup;
+			children = (
+				4D12697322986FE90098F4B2 /* Generic */,
+			);
+			path = Holder;
+			sourceTree = "<group>";
+		};
+		4D12697322986FE90098F4B2 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				4D12697422986FE90098F4B2 /* AppGCollectionTappableCell.swift */,
+				4D12697522986FE90098F4B2 /* AppGCell.swift */,
+				4D12697622986FE90098F4B2 /* AppGCollectionCell.swift */,
+				4D12697722986FE90098F4B2 /* AppGTappableCell.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		4D12697C229871020098F4B2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4D12697D229871090098F4B2 /* Utils */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4D12697D229871090098F4B2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4D12697E229871090098F4B2 /* TappableViewSelectableContainerComponent.swift */,
+				4D12697F229871090098F4B2 /* TappableViewContainerComponent.swift */,
+				4D126980229871090098F4B2 /* TappableLabelComponent.swift */,
+				4D126981229871090098F4B2 /* TappableViewComponent.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4D126986229871780098F4B2 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4D1269872298717F0098F4B2 /* UIImageExtension.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		4D126989229871E00098F4B2 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4D12698D229871E00098F4B2 /* Image */,
+				4D12698F229871E00098F4B2 /* EqTest.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		4D12698D229871E00098F4B2 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4D12698E229871E00098F4B2 /* UIImageExtensionTest.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		4D126994229872260098F4B2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4D126996229872260098F4B2 /* Utils */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4D126996229872260098F4B2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4D126997229872260098F4B2 /* TappableViewContainerComponentTest.swift */,
+				4D126998229872260098F4B2 /* TappableViewSelectableContainerComponentTest.swift */,
+				4D126999229872260098F4B2 /* TappableViewComponentTest.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4D1269A6229872580098F4B2 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				4D1269A7229872610098F4B2 /* Model */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		4D1269A7229872610098F4B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D1269A8229872610098F4B2 /* Generic */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D1269A8229872610098F4B2 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				4D1269A9229872610098F4B2 /* TableValueTest.swift */,
+				4D1269AA229872610098F4B2 /* TableKeyValueTest.swift */,
+				4D1269AB229872610098F4B2 /* TableGenericElementTest.swift */,
+				4D1269AC229872610098F4B2 /* TableElementWithValueTest.swift */,
+			);
+			path = Generic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +396,7 @@
 				TargetAttributes = {
 					4D12692D22986DAB0098F4B2 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					4D12693622986DAB0098F4B2 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -194,6 +443,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D12695C22986F4A0098F4B2 /* TableViewRowType.swift in Sources */,
+				4D12697A22986FE90098F4B2 /* AppGCollectionCell.swift in Sources */,
+				4D12696822986F7C0098F4B2 /* KeyTextField.swift in Sources */,
+				4D12696B22986F7C0098F4B2 /* RoundCornersExtension.swift in Sources */,
+				4D12695822986ED80098F4B2 /* TableValue.swift in Sources */,
+				4D12697922986FE90098F4B2 /* AppGCell.swift in Sources */,
+				4D12696E22986F7C0098F4B2 /* PaddingLabel.swift in Sources */,
+				4D126985229871090098F4B2 /* TappableViewComponent.swift in Sources */,
+				4D126982229871090098F4B2 /* TappableViewSelectableContainerComponent.swift in Sources */,
+				4D12696F22986F7C0098F4B2 /* CALayer+SketchShadow.swift in Sources */,
+				4D126984229871090098F4B2 /* TappableLabelComponent.swift in Sources */,
+				4D12697B22986FE90098F4B2 /* AppGTappableCell.swift in Sources */,
+				4D12696D22986F7C0098F4B2 /* PaddingTextField.swift in Sources */,
+				4D1269B4229876280098F4B2 /* UIColor+Equivalence.swift in Sources */,
+				4D12696C22986F7C0098F4B2 /* Unique.swift in Sources */,
+				4D12697822986FE90098F4B2 /* AppGCollectionTappableCell.swift in Sources */,
+				4D12696A22986F7C0098F4B2 /* UITableViewExtension.swift in Sources */,
+				4D12695922986ED80098F4B2 /* TableGenericElement.swift in Sources */,
+				4D12694B22986E450098F4B2 /* AbstractTableElementViewController.swift in Sources */,
+				4D12695622986ED80098F4B2 /* TableElementWithValue.swift in Sources */,
+				4D12695722986ED80098F4B2 /* TableKeyValue.swift in Sources */,
+				4D12694A22986E450098F4B2 /* BaseViewController.swift in Sources */,
+				4D12697022986F7C0098F4B2 /* StringExtension.swift in Sources */,
+				4D12694E22986EBE0098F4B2 /* HomeAdapter.swift in Sources */,
+				4D1269882298717F0098F4B2 /* UIImageExtension.swift in Sources */,
+				4D12696922986F7C0098F4B2 /* UIColor+Solid.swift in Sources */,
+				4D126983229871090098F4B2 /* TappableViewContainerComponent.swift in Sources */,
+				4D1269B6229876280098F4B2 /* ArrayExtension.swift in Sources */,
+				4D1269B5229876280098F4B2 /* UIButton+Block.swift in Sources */,
+				4D12697122986F7C0098F4B2 /* Eq.swift in Sources */,
+				4D12695A22986ED80098F4B2 /* TableCellBasicData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +481,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1269AE229872610098F4B2 /* TableKeyValueTest.swift in Sources */,
+				4D1269A1229872260098F4B2 /* TappableViewComponentTest.swift in Sources */,
+				4D1269A0229872260098F4B2 /* TappableViewSelectableContainerComponentTest.swift in Sources */,
+				4D12699F229872260098F4B2 /* TappableViewContainerComponentTest.swift in Sources */,
+				4D1269AF229872610098F4B2 /* TableGenericElementTest.swift in Sources */,
+				4D1269AD229872610098F4B2 /* TableValueTest.swift in Sources */,
 				4D12693D22986DAB0098F4B2 /* TSupportLibraryTests.swift in Sources */,
+				4D1269B0229872610098F4B2 /* TableElementWithValueTest.swift in Sources */,
+				4D126993229871E00098F4B2 /* EqTest.swift in Sources */,
+				4D126992229871E00098F4B2 /* UIImageExtensionTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +630,7 @@
 		4D12694322986DAB0098F4B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +648,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = it.matteocorradin.TSupportLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +657,7 @@
 		4D12694422986DAB0098F4B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +683,7 @@
 		4D12694622986DAB0098F4B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZ3W2ZG7LS;
 				INFOPLIST_FILE = TSupportLibraryTests/Info.plist;
@@ -409,6 +702,7 @@
 		4D12694722986DAB0098F4B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZ3W2ZG7LS;
 				INFOPLIST_FILE = TSupportLibraryTests/Info.plist;
