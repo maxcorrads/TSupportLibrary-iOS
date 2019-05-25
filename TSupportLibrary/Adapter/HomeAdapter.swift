@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class HomeAdapter {
+open class HomeAdapter {
     static func cellForRowAt(_ tableView: UITableView, _ indexPath: IndexPath, _ value: TableGenericElement, _ vc: UIViewController) -> UITableViewCell{
         tableView.register(UINib(nibName: value.element.getReuseId(), bundle:nil), forCellReuseIdentifier: value.element.getReuseId())
         let cell = tableView.dequeueReusableCell(withIdentifier: value.element.getReuseId(), for: indexPath) as! AppGCell

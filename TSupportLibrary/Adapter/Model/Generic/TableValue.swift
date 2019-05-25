@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 
-public class TableValue : Eq{
+open class TableValue : Eq{
     var type: TableViewRowType
     init(type: TableViewRowType) {
         self.type = type
     }
     
-    override public func isEqual(to object: Any?) -> Bool {
+    override open func isEqual(to object: Any?) -> Bool {
         if let other = object as? TableValue {
             return self.type == other.type
         }

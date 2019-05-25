@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class TappableLabelComponent: UILabel {
+open class TappableLabelComponent: UILabel {
     let tapGesture = UITapGestureRecognizer()
     
     public func makeViewTappable(view: UIView) {

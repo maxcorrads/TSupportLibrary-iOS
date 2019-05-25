@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class AppGCollectionTappableCell: AppGCollectionCell {
+open class AppGCollectionTappableCell: AppGCollectionCell {
     let tapGesture = UITapGestureRecognizer()
     
     public func makeViewTappable(view: UIView) {
@@ -30,7 +30,7 @@ public class AppGCollectionTappableCell: AppGCollectionCell {
         view.addGestureRecognizer(tapGesture)
     }
     
-    override public func awakeFromNib() {
+    override open func awakeFromNib() {
         super.awakeFromNib()
         makeTappable()
     }

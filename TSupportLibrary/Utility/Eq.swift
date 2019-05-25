@@ -14,13 +14,13 @@ public protocol EqProtocol {
     
 }
 
-public class Eq: Equatable, EqProtocol {
+open class Eq: Equatable, EqProtocol {
     
     public static func == (lhs: Eq, rhs: Eq) -> Bool {
         return lhs.isEqual(to:rhs)
     }
     
-    public func isEqual(to object: Any?) -> Bool {
+    open func isEqual(to object: Any?) -> Bool {
         if let other = object as? Eq{
             return self === other
         }

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class TableElementWithValue<T>: TableKeyValue {
+open class TableElementWithValue<T>: TableKeyValue {
     var value: T
     var hasError: Bool
     var isRequired: Bool

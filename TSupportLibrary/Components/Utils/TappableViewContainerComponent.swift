@@ -9,14 +9,14 @@
 import Foundation
 import UIKit
 
-public class TappableViewContainerComponent : UIView {
+open class TappableViewContainerComponent : UIView {
     private var mTappableViews = Array<TappableViewComponent>()
     
     var tappableViews: Array<TappableViewComponent> {
         return mTappableViews
     }
     
-    public func addTappableView(_ view: TappableViewComponent){
+    open func addTappableView(_ view: TappableViewComponent){
         if !mTappableViews.contains(view) {
             mTappableViews.append(view)
         }

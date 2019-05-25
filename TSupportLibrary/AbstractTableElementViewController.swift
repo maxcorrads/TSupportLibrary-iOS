@@ -8,11 +8,11 @@
 
 import UIKit
 
-public class AbstractTableElementViewController: BaseViewController, UITableViewDelegate, UITableViewDataSource {
+open class AbstractTableElementViewController: BaseViewController, UITableViewDelegate, UITableViewDataSource {
     
     var dataArray = Array<TableGenericElement>()
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         tableView.separatorStyle = .none
         tableView.backgroundColor = UIColor.clear

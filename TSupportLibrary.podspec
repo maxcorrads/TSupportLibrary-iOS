@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "TSupportLibrary"
-  spec.version      = "0.10.0"
+  spec.version      = "0.11.0"
   spec.summary      = "TSupportLibrary"
   spec.homepage     = "https://github.com/maxcorrads/TSupportLibrary-iOS"
   spec.license      = { :type => 'MIT', :text => <<-LICENSE

@@ -8,6 +8,6 @@
 
 import UIKit
 
-public class KeyTextField: UITextField {
+open class KeyTextField: UITextField {
     var key: String?
 }

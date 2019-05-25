@@ -8,8 +8,8 @@
 
 import UIKit
 
-public class AppGCollectionCell: UICollectionViewCell {
-    override public func awakeFromNib() {
+open class AppGCollectionCell: UICollectionViewCell {
+    override open func awakeFromNib() {
         super.awakeFromNib()
         contentView.backgroundColor = UIColor.clear
         backgroundColor = UIColor.clear

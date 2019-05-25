@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class BaseViewController: UIViewController {
+open class BaseViewController: UIViewController {
     func pushVc(id: String) {
         if let vc = self.storyboard?.instantiateViewController(withIdentifier: id){
             self.navigationController?.pushViewController(vc, animated: true)

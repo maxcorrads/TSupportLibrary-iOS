@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class TappableViewSelectableContainerComponent: TappableViewContainerComponent {
+open class TappableViewSelectableContainerComponent: TappableViewContainerComponent {
     private var _selected: Int?
     
     var selectedCallback : ((_ selected: Int) -> Void)?
@@ -34,7 +34,7 @@ public class TappableViewSelectableContainerComponent: TappableViewContainerComp
         }
     }
     
-    override public func addTappableView(_ view: TappableViewComponent) {
+    override open func addTappableView(_ view: TappableViewComponent) {
         super.addTappableView(view)
         if self.tappableViews.count > 0 && selected == nil {
             selected = 0

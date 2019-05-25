@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public class TableGenericElement{
+open class TableGenericElement{
     var element: TableValue
     var canBeExpanded : Bool // Bool to determine whether the cell can be expanded
     var isExpanded : Bool // Bool to determine whether the cell is expanded

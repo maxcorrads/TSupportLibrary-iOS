@@ -8,9 +8,9 @@
 
 import UIKit
 
-public class AppGCell : UITableViewCell {
+open class AppGCell : UITableViewCell {
     
-    override public func awakeFromNib() {
+    override open func awakeFromNib() {
         super.awakeFromNib()
         contentView.backgroundColor = UIColor.clear
         backgroundColor = UIColor.clear

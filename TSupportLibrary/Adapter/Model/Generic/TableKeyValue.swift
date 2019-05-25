@@ -9,14 +9,14 @@
 import Foundation
 import UIKit
 
-public class TableKeyValue: TableValue {
+open class TableKeyValue: TableValue {
     let key: String
     init(type: TableViewRowType, key:String) {
         self.key = key
         super.init(type: type)
     }
     
-    override public func isEqual(to object: Any?) -> Bool {
+    override open func isEqual(to object: Any?) -> Bool {
         if let other = object as? TableKeyValue {
             return self.key == other.key && super.isEqual(to: object)
         }
