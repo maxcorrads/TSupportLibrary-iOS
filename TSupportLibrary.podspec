@@ -37,6 +37,8 @@ SOFTWARE.
   spec.platform     = :ios
   spec.source       = { :git => "https://github.com/maxcorrads/TSupportLibrary-iOS.git", :tag => "#{spec.version}" }
   spec.platform = :ios
+  spec.ios.source_files = 'TSupportLibrary.framework/Headers/*'
+  spec.ios.public_header_files = 'TSupportLibrary.framework/Headers/*'
   spec.swift_version = "5"
   spec.ios.deployment_target  = '8.0'
   spec.ios.vendored_frameworks = 'TSupportLibrary.framework'
