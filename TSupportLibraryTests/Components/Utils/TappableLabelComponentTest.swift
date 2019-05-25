@@ -1,16 +1,16 @@
 //
-//  TappableViewComponentTest.swift
-//  TSupportLibrary
+//  TappableLabelComponentTest.swift
+//  TSupportLibraryTests
 //
-//  Created by Matteo Corradin on 14/05/18.
-//  Copyright © 2018 Matteo Corradin. All rights reserved.
+//  Created by Matteo Corradin on 25/05/2019.
+//  Copyright © 2019 Matteo Corradin. All rights reserved.
 //
 
 import XCTest
 import UIKit
 @testable import TSupportLibrary
 
-class TappableViewComponentTest: XCTestCase {
+class TappableLabelComponentTest: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -23,25 +23,25 @@ class TappableViewComponentTest: XCTestCase {
     }
     
     func testMakeViewTappableAddGesture() {
-        let view: TappableViewComponent = TappableViewComponent(frame: CGRect.zero)
+        let view: TappableLabelComponent = TappableLabelComponent(frame: CGRect.zero)
         view.makeViewTappable(view: view)
         XCTAssertTrue(view.gestureRecognizers!.count == 1)
     }
     
     func testMakeViewTappableAddGesture2() {
-        let view: TappableViewComponent = TappableViewComponent(frame: CGRect.zero)
+        let view: TappableLabelComponent = TappableLabelComponent(frame: CGRect.zero)
         view.makeTappable()
         XCTAssertTrue(view.gestureRecognizers!.count == 1)
     }
     
     func testMakeViewTappableAddGesture3() {
-        let view: TappableViewComponent = TappableViewComponent(frame: CGRect.zero)
+        let view: TappableLabelComponent = TappableLabelComponent(frame: CGRect.zero)
         view.makeTappable()
         XCTAssertEqual(view.gestureRecognizers!.first, view.tapGesture)
     }
     
     func testMakeViewTappableAddGesture4() {
-        let view: TappableViewComponent = TappableViewComponent(frame: CGRect.zero)
+        let view: TappableLabelComponent = TappableLabelComponent(frame: CGRect.zero)
         let gr = UIGestureRecognizer(target: nil, action: nil)
         view.addGestureRecognizer(gr)
         if let grs = view.gestureRecognizers{
@@ -52,7 +52,7 @@ class TappableViewComponentTest: XCTestCase {
     }
     
     func testMakeViewTappableAddGesture5() {
-        let view: TappableViewComponent = TappableViewComponent(frame: CGRect.zero)
+        let view: TappableLabelComponent = TappableLabelComponent(frame: CGRect.zero)
         let gr = UIGestureRecognizer(target: nil, action: nil)
         view.addGestureRecognizer(gr)
         if let grs = view.gestureRecognizers{

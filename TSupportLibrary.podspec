@@ -13,17 +13,14 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/maxcorrads/TSupportLibrary-iOS"
   spec.license      = { :type => 'MIT', :text => <<-LICENSE
 Copyright (c) 2019 Matteo Corradin
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
-
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -36,10 +33,8 @@ SOFTWARE.
   spec.author       = { "matteocorradin" => "matteo@app24h.it" }
   spec.platform     = :ios
   spec.source       = { :git => "https://github.com/maxcorrads/TSupportLibrary-iOS.git", :tag => "#{spec.version}" }
+  spec.source_files  = "TSupportLibrary/**/*.swift" , "TSupportLibrary/**/*.{h,m}"
   spec.platform = :ios
-  spec.ios.source_files = 'TSupportLibrary.framework/Headers/*'
-  spec.ios.public_header_files = 'TSupportLibrary.framework/Headers/*'
   spec.swift_version = "5"
   spec.ios.deployment_target  = '8.0'
-  spec.ios.vendored_frameworks = 'TSupportLibrary.framework'
 end
