@@ -15,7 +15,7 @@ open class AppGCollectionCell: UICollectionViewCell {
         backgroundColor = UIColor.clear
     }
     
-    func populate(_ collectionView: UICollectionView, _ data: TableValue, _ action: ((UIViewController) -> Void)?, _ indexPath: IndexPath, _ vc: UIViewController) {
+    public func populate(_ collectionView: UICollectionView, _ data: TableValue, _ action: ((UIViewController) -> Void)?, _ indexPath: IndexPath, _ vc: UIViewController) {
         
     }
 }

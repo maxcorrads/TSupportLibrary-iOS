@@ -12,9 +12,9 @@ import UIKit
 open class TappableViewSelectableContainerComponent: TappableViewContainerComponent {
     private var _selected: Int?
     
-    var selectedCallback : ((_ selected: Int) -> Void)?
+    public var selectedCallback : ((_ selected: Int) -> Void)?
     
-    var selected: Int? {
+    public var selected: Int? {
         get {
             return _selected
         }

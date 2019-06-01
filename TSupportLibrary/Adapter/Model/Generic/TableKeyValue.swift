@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 open class TableKeyValue: TableValue {
-    let key: String
-    init(type: TableViewRowType, key:String) {
+    public let key: String
+    public init(type: TableViewRowType, key:String) {
         self.key = key
         super.init(type: type)
     }

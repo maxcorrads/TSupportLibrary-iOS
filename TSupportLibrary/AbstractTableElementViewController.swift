@@ -10,7 +10,7 @@ import UIKit
 
 open class AbstractTableElementViewController: BaseViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var dataArray = Array<TableGenericElement>()
+    public var dataArray = Array<TableGenericElement>()
     
     override open func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ open class AbstractTableElementViewController: BaseViewController, UITableViewDe
         tableView.dataSource = self
     }
     
-    @IBOutlet var tableView: UITableView!
+    @IBOutlet public var tableView: UITableView!
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataArray.count
@@ -48,7 +48,7 @@ open class AbstractTableElementViewController: BaseViewController, UITableViewDe
         }
     }
     
-    var cellHeights: [IndexPath : CGFloat] = [:]
+    public var cellHeights: [IndexPath : CGFloat] = [:]
     
     
     public func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
@@ -75,7 +75,7 @@ open class AbstractTableElementViewController: BaseViewController, UITableViewDe
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
-    func collapseCellsFromIndexOf(_ prod:TableGenericElement,indexPath:IndexPath,tableView:UITableView)->Void{
+    public func collapseCellsFromIndexOf(_ prod:TableGenericElement,indexPath:IndexPath,tableView:UITableView)->Void{
         
         // Find the number of childrens opened under the parent recursively as there can be expanded children also
         let collapseCol = self.numberOfCellsToBeCollapsed(prod)
@@ -96,7 +96,7 @@ open class AbstractTableElementViewController: BaseViewController, UITableViewDe
         tableView.reloadRows(at: [indexPath], with: .none)
     }
     
-    func expandCellsFromIndexOf(_ prod:TableGenericElement,indexPath:IndexPath,tableView:UITableView)->Void{
+    public func expandCellsFromIndexOf(_ prod:TableGenericElement,indexPath:IndexPath,tableView:UITableView)->Void{
         
         // Create dummy children
         // self.fetchChildrenforParent(prod)
@@ -129,7 +129,7 @@ open class AbstractTableElementViewController: BaseViewController, UITableViewDe
         }
     }
     
-    func numberOfCellsToBeCollapsed(_ prod:TableGenericElement)->Int{
+    public func numberOfCellsToBeCollapsed(_ prod:TableGenericElement)->Int{
         
         var total = 0
         

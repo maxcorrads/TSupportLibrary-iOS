@@ -10,12 +10,12 @@ import Foundation
 import UIKit
 
 open class TableElementWithValue<T>: TableKeyValue {
-    var value: T
-    var hasError: Bool
-    var isRequired: Bool
-    var equalKey: String?
+    public var value: T
+    public var hasError: Bool
+    public var isRequired: Bool
+    public var equalKey: String?
     
-    init(type: TableViewRowType, key:String, value: T, hasError: Bool, isRequired: Bool, equalKey: String?) {
+    public init(type: TableViewRowType, key:String, value: T, hasError: Bool, isRequired: Bool, equalKey: String?) {
         self.value = value
         self.hasError = hasError
         self.isRequired = isRequired

@@ -10,13 +10,13 @@ import Foundation
 import UIKit
 
 open class TableGenericElement{
-    var element: TableValue
-    var canBeExpanded : Bool // Bool to determine whether the cell can be expanded
-    var isExpanded : Bool // Bool to determine whether the cell is expanded
-    var children: Array<TableGenericElement>?
-    var action: ((UIViewController)->Void)?
+    public var element: TableValue
+    public var canBeExpanded : Bool // Bool to determine whether the cell can be expanded
+    public var isExpanded : Bool // Bool to determine whether the cell is expanded
+    public var children: Array<TableGenericElement>?
+    public var action: ((UIViewController)->Void)?
     
-    init(element:TableValue) {
+    public init(element:TableValue) {
         self.element = element
         self.canBeExpanded = false
         self.isExpanded = false
@@ -24,7 +24,7 @@ open class TableGenericElement{
         self.action = nil
     }
     
-    init(element:TableValue, action: ((UIViewController)->Void)?) {
+    public init(element:TableValue, action: ((UIViewController)->Void)?) {
         self.element = element
         self.canBeExpanded = false
         self.isExpanded = false
@@ -32,7 +32,7 @@ open class TableGenericElement{
         self.action = action
     }
     
-    init(element:TableValue, canBeExpanded:Bool, isExpanded:Bool, children: Array<TableGenericElement>?, action: ((UIViewController)->Void)?) {
+    public init(element:TableValue, canBeExpanded:Bool, isExpanded:Bool, children: Array<TableGenericElement>?, action: ((UIViewController)->Void)?) {
         self.element = element
         self.canBeExpanded = canBeExpanded
         self.isExpanded = isExpanded

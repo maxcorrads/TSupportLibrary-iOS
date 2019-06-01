@@ -9,29 +9,29 @@
 import UIKit
 
 open class BaseViewController: UIViewController {
-    func pushVc(id: String) {
+    public func pushVc(id: String) {
         if let vc = self.storyboard?.instantiateViewController(withIdentifier: id){
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }
     
-    func popVc() {
+    public func popVc() {
         self.navigationController?.popViewController(animated: true)
     }
     
-    func pushVcXib(vc: UIViewController) {
+    public func pushVcXib(vc: UIViewController) {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
-    func dismissVc() {
+    public func dismissVc() {
        self.dismiss(animated: true, completion: nil)
     }
     
-    func modalVcXib(vc: UIViewController) {
+    public func modalVcXib(vc: UIViewController) {
         self.present(vc, animated: true, completion: nil)
     }
     
-    func modalVcXibWithNav(vc: UIViewController){
+    public func modalVcXibWithNav(vc: UIViewController){
         let nc = UINavigationController(rootViewController: vc)
         nc.isNavigationBarHidden = true
         self.present(nc, animated: true, completion: nil)

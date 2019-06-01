@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 public struct TableCellBasicData {
-    let color: UIColor
-    let secondaryColor: UIColor
-    let text: String
+    public let color: UIColor
+    public let secondaryColor: UIColor
+    public let text: String
 }

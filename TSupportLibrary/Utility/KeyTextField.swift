@@ -9,5 +9,5 @@
 import UIKit
 
 open class KeyTextField: UITextField {
-    var key: String?
+    public var key: String?
 }

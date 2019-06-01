@@ -12,7 +12,7 @@ import UIKit
 open class TappableViewContainerComponent : UIView {
     private var mTappableViews = Array<TappableViewComponent>()
     
-    var tappableViews: Array<TappableViewComponent> {
+    public var tappableViews: Array<TappableViewComponent> {
         return mTappableViews
     }
     

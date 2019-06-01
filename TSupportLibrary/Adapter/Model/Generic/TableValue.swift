@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 open class TableValue : Eq{
-    var type: TableViewRowType
-    init(type: TableViewRowType) {
+    public var type: TableViewRowType
+    public init(type: TableViewRowType) {
         self.type = type
     }
     
@@ -22,15 +22,15 @@ open class TableValue : Eq{
         return false
     }
     
-    func getReuseId() -> String{
+    public func getReuseId() -> String{
         return type
     }
     
-    func getHeight() -> CGFloat {
+    public func getHeight() -> CGFloat {
         return UITableView.automaticDimension
     }
     
-    func getSize() -> CGSize? {
+    public func getSize() -> CGSize? {
         return nil
     }
 }

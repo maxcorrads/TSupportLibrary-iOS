@@ -9,7 +9,7 @@
 import UIKit
 
 open class AppGTappableCell: AppGCell {
-    let tapGesture = UITapGestureRecognizer()
+    public let tapGesture = UITapGestureRecognizer()
     
     public func makeViewTappable(view: UIView) {
         if let grs = view.gestureRecognizers {
