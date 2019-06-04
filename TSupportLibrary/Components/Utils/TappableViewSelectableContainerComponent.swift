@@ -27,7 +27,7 @@ open class TappableViewSelectableContainerComponent: TappableViewContainerCompon
         }
     }
     
-    internal func newViewSelectedAction(old: Int?, new: Int){
+    open func newViewSelectedAction(old: Int?, new: Int){
         _selected = new
         if let callback = selectedCallback{
             callback(new)
