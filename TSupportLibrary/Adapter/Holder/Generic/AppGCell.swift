@@ -17,7 +17,7 @@ open class AppGCell : UITableViewCell {
         selectionStyle = .none
     }
     
-    public func populate(_ tableView: UITableView, _ data: TableValue, _ action: ((UIViewController) -> Void)?, _ indexPath: IndexPath, _ vc: UIViewController) {
+    open func populate(_ tableView: UITableView, _ data: TableValue, _ action: ((UIViewController) -> Void)?, _ indexPath: IndexPath, _ vc: UIViewController) {
         
     }
     

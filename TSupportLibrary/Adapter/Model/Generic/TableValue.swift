@@ -26,7 +26,7 @@ open class TableValue : Eq{
         return type
     }
     
-    public func getHeight() -> CGFloat {
+    open func getHeight() -> CGFloat {
         return UITableView.automaticDimension
     }
     
