@@ -27,6 +27,7 @@ open class TappableViewSelectableContainerComponent: TappableViewContainerCompon
         }
     }
     
+    //on override, please make sure to call super unless you know what you are doing!
     open func newViewSelectedAction(old: Int?, new: Int){
         _selected = new
         if let callback = selectedCallback{
