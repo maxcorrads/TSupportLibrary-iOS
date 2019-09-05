@@ -23,7 +23,7 @@ open class TableElementWithValue<T>: TableKeyValue {
         super.init(type: type, key: key)
     }
     
-    init(type: TableViewRowType, key:String, value: T, isRequired: Bool, equalKey: String?) {
+    public init(type: TableViewRowType, key:String, value: T, isRequired: Bool, equalKey: String?) {
         self.value = value
         self.hasError = false
         self.isRequired = isRequired
@@ -31,7 +31,7 @@ open class TableElementWithValue<T>: TableKeyValue {
         super.init(type: type, key: key)
     }
     
-    init(type: TableViewRowType, key:String, value: T, isRequired: Bool) {
+    public init(type: TableViewRowType, key:String, value: T, isRequired: Bool) {
         self.value = value
         self.hasError = false
         self.isRequired = isRequired
@@ -40,7 +40,7 @@ open class TableElementWithValue<T>: TableKeyValue {
         
     }
     
-    init(type: TableViewRowType, key:String, value: T) {
+    public init(type: TableViewRowType, key:String, value: T) {
         self.value = value
         self.hasError = false
         self.isRequired = false

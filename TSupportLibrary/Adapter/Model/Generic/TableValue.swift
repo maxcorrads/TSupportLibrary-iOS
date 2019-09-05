@@ -30,7 +30,7 @@ open class TableValue : Eq{
         return UITableView.automaticDimension
     }
     
-    public func getSize() -> CGSize? {
+    open func getSize() -> CGSize? {
         return nil
     }
 }
