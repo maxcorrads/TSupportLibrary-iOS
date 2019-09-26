@@ -32,8 +32,13 @@ open class BaseViewController: UIViewController {
     }
     
     public func modalVcXibWithNav(vc: UIViewController){
+        self.modalVcXibWithNav(vc: vc, modalPresentationStyle: .fullScreen)
+    }
+    
+    public func modalVcXibWithNav(vc: UIViewController, modalPresentationStyle: UIModalPresentationStyle){
         let nc = UINavigationController(rootViewController: vc)
         nc.isNavigationBarHidden = true
+        nc.modalPresentationStyle = modalPresentationStyle
         self.present(nc, animated: true, completion: nil)
     }
 }
